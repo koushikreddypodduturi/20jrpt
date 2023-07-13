@@ -11,8 +11,12 @@ int i=10;
 		return encoder.encodeToString(txt.getBytes());
 	}
 	public static String decode(String encodeTxt) {
+<<<<<<< Updated upstream
 		//changes for bug 121
 				int k=50;
+=======
+		int j=20;
+>>>>>>> Stashed changes
 		Decoder decoder = Base64.getDecoder();
 		byte[] decode = decoder.decode(encodeTxt);
 		return new String(decode);
